@@ -1,5 +1,30 @@
-@media (max-width: 768px) {
-  header label {
-    display: block;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  min-width: 375px;
+  max-width: 400px;
+  background-color: red;
+}
+header {
+  /* width: 100%; */
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+}
+
+main .hero {
+  height: 100%;
+  width: 100%;
+}
+
+main .hero img {
+  max-width: 100%;
+  max-height: 100%;
 }
