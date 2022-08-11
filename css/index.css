@@ -125,12 +125,20 @@ nav li a:hover {
 
 /**** MAIN ****/
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 900;
   line-height: 40px;
-  padding-top: 16px;
+  padding-top: 20px;
   text-align: center;
 }
+p {
+  margin-top: 10px;
+  font-family: var(--lato);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
 .bg-primary {
   background-color: var(--primary-background-color);
 }
@@ -143,4 +151,13 @@ main .hero {
 }
 main .hero img {
   max-width: 100%;
+}
+/* MAIN - MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 40px;
+  }
+  p {
+    line-height: 1.5;
+  }
 }
