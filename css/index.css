@@ -128,7 +128,7 @@ h2 {
   font-size: 40px;
   font-weight: 900;
   line-height: 40px;
-  /* margin: 0; */
+  padding-top: 16px;
   text-align: center;
 }
 .bg-primary {
