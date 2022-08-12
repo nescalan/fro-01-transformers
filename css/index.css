@@ -17,7 +17,7 @@
 }
 body {
   color: var(--font-color);
-  font-family: var(--montserrat);
+  font-family: var(--lato);
 }
 
 /***** HEADER *****/
@@ -55,10 +55,15 @@ header .branding img {
   height: 50px;
 }
 /* HEADER - MEDIA QUERIES */
-@media screen and (min-width: 768px) {
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
   header .branding {
-    width: 600px;
-    margin-left: 120px;
+    width: 250px;
+    padding: 0;
+    /* display: block; */
+    margin-left: 30px;
   }
   header .branding img {
     width: 216px;
@@ -68,6 +73,12 @@ header .branding img {
   header label {
     display: none;
   }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
 }
 
 /***** NAVBAR *****/
@@ -125,18 +136,28 @@ nav li a:hover {
 
 /**** MAIN ****/
 h2 {
+  font-family: var(--montserrat);
   font-size: 32px;
   font-weight: 900;
-  line-height: 40px;
-  padding-top: 20px;
+  line-height: 0.4;
   text-align: center;
 }
 p {
-  margin-top: 10px;
+  margin-top: 30px;
   font-family: var(--lato);
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.3;
+  line-height: 1.4;
+}
+.container {
+  width: 90%;
+  min-width: 330px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+  overflow: hidden;
+
+  background-color: #fff;
 }
 
 .bg-primary {
@@ -152,12 +173,32 @@ main .hero {
 main .hero img {
   max-width: 100%;
 }
+
 /* MAIN - MEDIA QUERIES */
-@media screen and (min-width: 768px) {
-  h2 {
-    font-size: 40px;
+@media (min-width: 576px) {
+  .container {
+    min-width: 375px;
+    max-width: 100%;
   }
-  p {
-    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    border: 1px solid red;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+    border: 1px solid blue;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    border: 1px solid green;
   }
 }
