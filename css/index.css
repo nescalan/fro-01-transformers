@@ -62,7 +62,6 @@ header .branding img {
   header .branding {
     width: 250px;
     padding: 0;
-    /* display: block; */
     margin-left: 30px;
   }
   header .branding img {
@@ -76,6 +75,11 @@ header .branding img {
 }
 
 @media (min-width: 992px) {
+  /* header .branding {
+    width: 600px;
+    padding: 0;
+    margin-left: 120px;
+  } */
 }
 
 @media (min-width: 1200px) {
@@ -156,14 +160,13 @@ p {
   margin: 0 auto;
   padding: 60px 0;
   overflow: hidden;
-
-  background-color: #fff;
 }
 
 .bg-primary {
   background-color: var(--primary-background-color);
 }
 .bg-secondary {
+  color: #fff;
   background-color: var(--secundary-background-color);
 }
 main .hero {
@@ -185,20 +188,17 @@ main .hero img {
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
-    border: 1px solid red;
   }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
-    border: 1px solid blue;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-    border: 1px solid green;
   }
 }
