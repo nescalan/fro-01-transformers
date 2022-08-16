@@ -166,7 +166,9 @@ nav li a:hover {
 @media screen and (min-width: 768px) {
   .dropdown {
     width: 30rem;
+    margin-left: -200%;
   }
+
   .dropdown li + li {
     margin-top: 0;
   }
