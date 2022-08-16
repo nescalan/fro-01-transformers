@@ -145,7 +145,7 @@ nav li a:hover {
   position: absolute;
   display: none;
   border-radius: 8px;
-  top: 70px;
+  top: 76px;
   background-color: var(--primary-background-color);
 }
 .dropdown li + li {
