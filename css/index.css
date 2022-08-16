@@ -134,6 +134,50 @@ nav li a:hover {
     flex-direction: row;
   }
 }
+/* DROPDOWN MENU */
+.important-links {
+  position: relative;
+}
+.dropdown {
+  width: 100%;
+  padding: 1em 0;
+  /*Respecto al padre*/
+  position: absolute;
+  display: none;
+  border-radius: 8px;
+  top: 70px;
+  background-color: var(--primary-background-color);
+}
+.dropdown li + li {
+  margin-top: 10px;
+}
+.dropdown li {
+  padding: 0.5em 1em;
+  width: 100%;
+  text-align: center;
+}
+.dropdown li:hover {
+  background-color: var(--secundary-background-color);
+}
+.important-links:hover .dropdown {
+  display: block;
+}
+/* DROPDOWN - MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .dropdown {
+    width: 30rem;
+  }
+  .dropdown li + li {
+    margin-top: 0;
+  }
+  .dropdown li {
+    padding: 0;
+  }
+  .important-links:hover .dropdown {
+    display: flex;
+    flex-direction: row;
+  }
+}
 
 /**** MAIN ****/
 h2 {
