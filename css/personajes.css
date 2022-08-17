@@ -37,6 +37,7 @@
   margin-top: -20px;
 }
 .container-card {
+  width: 100%;
   overflow: hidden;
   margin: -75px auto 0 auto;
   display: flex;
@@ -80,6 +81,7 @@
 @media (min-width: 768px) {
   .container-card {
     max-width: 80%;
+    flex-direction: row;
     /* max-width: 720px; */
   }
 }
@@ -101,7 +103,8 @@
 /* FOOTER */
 footer {
   height: 20vh;
-  margin-top: 10px;
+  margin-top: 40px;
   background-image: url(https://transformers.hasbro.com/images/BASE_en_us.png);
+  background-size: cover;
   background-repeat: no-repeat;
 }

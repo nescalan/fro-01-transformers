@@ -278,7 +278,7 @@ main .hero img {
 /* FOOTER */
 footer {
   height: 20vh;
-  margin-top: 10px;
   background-image: url(https://transformers.hasbro.com/images/BASE_en_us.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
