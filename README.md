@@ -59,3 +59,19 @@
 Los puntos anteriores permiten que la imagen se adapte al tamaño de su contenedor padre, en este caso el elemento con la clase contenedor-img-personaje. Si desea modificar el tamaño para que la imagen se vea más grande o pequeña puede regresar al punto 6 y modificar los pixeles del width.
 
 **Resultado esperado:** Imágenes redimensionadas.
+
+# Lecciones Aprendidas
+
+## Primera Lección:
+
+Conocer la estructura base de un documento HTML y sus diferentes elementos, así como, enlazar una hoja de estilos al HTML principal.
+
+## Segunda Lección:
+
+1. Creación de un menú y la forma de enlazarlo con una nueva página HTML
+2. Organización de los diferentes archivos correspondientes a un proyecto de web
+3. Creación de tarjetas para presentar información para cada uno de los personajes
+
+## Tercera Lección:
+
+Una mejor comprensión del elemento "viewport", el cual ayuda a los "media queries" y la utilización de los diferente elementos de "media" para configurarlos de modo que se adapten a los diferentes puntos de "salto"
